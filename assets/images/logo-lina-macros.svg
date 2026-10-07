@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="260" viewBox="0 0 860 260" role="img" aria-label="Lina Macros logo">
+  <defs>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff9b2f"/>
+      <stop offset="0.55" stop-color="#ff6a1a"/>
+      <stop offset="1" stop-color="#ff3d00"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38f2a2"/>
+      <stop offset="1" stop-color="#41d9ff"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.22 0 0 0 0 0.95 0 0 0 0 0.65 0 0 0 0.45 0"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="8" y="8" width="844" height="244" rx="44" fill="#050711" stroke="rgba(255,255,255,.12)" stroke-width="2"/>
+
+  <g transform="translate(52 26)">
+    <rect x="0" y="0" width="196" height="196" rx="38" fill="#050711" stroke="#f1a0a9" stroke-width="8"/>
+    <path d="M42 68 L52 20 L90 58 L98 48 L106 58 L144 20 L154 68 L172 94 L148 160 L98 178 L48 160 L24 94 Z" fill="url(#orange)" stroke="#f1a0a9" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M55 35 L74 75 L43 64 ZM141 35 L122 75 L153 64 Z" fill="#111827" opacity=".95"/>
+    <path d="M63 96 C78 84 90 86 96 96 C82 101 73 101 63 96 Z" fill="#050711"/>
+    <path d="M133 96 C118 84 106 86 100 96 C114 101 123 101 133 96 Z" fill="#050711"/>
+    <path d="M82 126 L98 116 L114 126 L98 136 Z" fill="#050711"/>
+    <path d="M69 142 C86 160 110 160 127 142" fill="none" stroke="#050711" stroke-width="7" stroke-linecap="round"/>
+    <path d="M23 124 L91 111 L79 135 L173 116 L104 154 L115 132 Z" fill="#ff7a1a" stroke="#050711" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M46 73 L78 84 M150 73 L118 84" stroke="#050711" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(292 66)">
+    <text x="0" y="62" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="62" font-weight="900" letter-spacing="-3">Lina Macros</text>
+    <text x="3" y="105" fill="#aab4c5" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="6">PREMIUM MACRO STORE</text>
+    <path d="M4 130 H340" stroke="url(#neon)" stroke-width="7" stroke-linecap="round" filter="url(#glow)"/>
+    <path d="M370 102 L430 58 L405 100 L470 86 L388 154 L414 112 Z" fill="url(#neon)" opacity=".95" filter="url(#glow)"/>
+  </g>
+</svg>

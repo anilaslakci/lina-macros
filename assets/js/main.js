@@ -1,0 +1,1 @@
+(function(){const m=["Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık"];const n=new Date();const l=m[n.getMonth()]+" "+n.getFullYear();document.querySelectorAll("[data-current-month]").forEach(e=>e.textContent=l);document.querySelectorAll("[data-current-year]").forEach(e=>e.textContent=n.getFullYear());})();
